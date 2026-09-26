@@ -1,0 +1,302 @@
+[
+  {
+    "report_id": "US-MEDSIGNAL-2024-00031",
+    "patient": {
+      "age": 62.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 59.7
+    },
+    "drugs": [
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "primary_suspect",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Bayer Aspirin",
+        "generic_name": "aspirin",
+        "role": "interacting",
+        "indication": "Secondary prevention",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "death"
+      }
+    ],
+    "report_date": "2024-08-05",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00032",
+    "patient": {
+      "age": 75.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 61.9
+    },
+    "drugs": [
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "primary_suspect",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "death"
+      }
+    ],
+    "report_date": "2024-09-06",
+    "reporter_type": "consumer",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00033",
+    "patient": {
+      "age": 67.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 57.5
+    },
+    "drugs": [
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "primary_suspect",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "hospitalization"
+      },
+      {
+        "preferred_term": "Dizziness",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-10-07",
+    "reporter_type": "physician",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00034",
+    "patient": {
+      "age": 64.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 77.8
+    },
+    "drugs": [
+      {
+        "name": "Prinivil",
+        "generic_name": "lisinopril",
+        "role": "primary_suspect",
+        "indication": "Hypertension",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Angioedema",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-11-08",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00035",
+    "patient": {
+      "age": 29.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 84.6
+    },
+    "drugs": [
+      {
+        "name": "Prinivil",
+        "generic_name": "lisinopril",
+        "role": "primary_suspect",
+        "indication": "Hypertension",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Cough",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-12-09",
+    "reporter_type": "pharmacist",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00036",
+    "patient": {
+      "age": 84.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 62.1
+    },
+    "drugs": [
+      {
+        "name": "Lopressor",
+        "generic_name": "metoprolol",
+        "role": "primary_suspect",
+        "indication": "Hypertension",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Bradycardia",
+        "outcome": "other"
+      },
+      {
+        "preferred_term": "Nausea",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-01-10",
+    "reporter_type": "other",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00037",
+    "patient": {
+      "age": 66.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 103.5
+    },
+    "drugs": [
+      {
+        "name": "Norvasc",
+        "generic_name": "amlodipine",
+        "role": "primary_suspect",
+        "indication": "Hypertension",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Peripheral oedema",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-02-11",
+    "reporter_type": "consumer",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00038",
+    "patient": {
+      "age": 29.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 55.2
+    },
+    "drugs": [
+      {
+        "name": "Prilosec",
+        "generic_name": "omeprazole",
+        "role": "primary_suspect",
+        "indication": "Gastro-oesophageal reflux disease",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Hypomagnesaemia",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-03-12",
+    "reporter_type": "consumer",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00039",
+    "patient": {
+      "age": 35.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 91.8
+    },
+    "drugs": [
+      {
+        "name": "Prilosec",
+        "generic_name": "omeprazole",
+        "role": "primary_suspect",
+        "indication": "Gastro-oesophageal reflux disease",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Clostridium difficile colitis",
+        "outcome": "life_threatening"
+      },
+      {
+        "preferred_term": "Dizziness",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-04-13",
+    "reporter_type": "consumer",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00040",
+    "patient": {
+      "age": 35.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 75.3
+    },
+    "drugs": [
+      {
+        "name": "Bayer Aspirin",
+        "generic_name": "aspirin",
+        "role": "primary_suspect",
+        "indication": "Secondary prevention",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "life_threatening"
+      }
+    ],
+    "report_date": "2024-05-14",
+    "reporter_type": "other",
+    "serious": true
+  }
+]

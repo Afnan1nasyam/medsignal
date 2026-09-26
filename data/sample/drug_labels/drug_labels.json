@@ -1,0 +1,778 @@
+[
+  {
+    "drug_name": "Glucophage",
+    "generic_name": "metformin",
+    "active_ingredient": "metformin hydrochloride",
+    "manufacturer": "Bristol-Myers Squibb",
+    "indications": [
+      "Type 2 diabetes mellitus"
+    ],
+    "contraindications": [
+      "Severe renal impairment (eGFR < 30)",
+      "Metabolic acidosis",
+      "Diabetic ketoacidosis"
+    ],
+    "warnings": [
+      "Risk of lactic acidosis",
+      "Vitamin B12 deficiency with long-term use"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Diarrhoea",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Nausea",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Lactic acidosis",
+        "frequency": "very_rare",
+        "description": "Serious; discontinue immediately"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "ibuprofen",
+        "severity": "moderate",
+        "description": "NSAID may reduce renal clearance, raising lactic acidosis risk"
+      },
+      {
+        "interacting_drug": "contrast media",
+        "severity": "major",
+        "description": "Withhold around iodinated contrast administration"
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Prinivil",
+    "generic_name": "lisinopril",
+    "active_ingredient": "lisinopril",
+    "manufacturer": "Merck",
+    "indications": [
+      "Hypertension",
+      "Heart failure",
+      "Post-myocardial infarction"
+    ],
+    "contraindications": [
+      "History of angioedema",
+      "Pregnancy",
+      "Bilateral renal artery stenosis"
+    ],
+    "warnings": [
+      "Angioedema",
+      "Hyperkalaemia",
+      "Renal impairment"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Cough",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Dizziness",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Angioedema",
+        "frequency": "rare",
+        "description": "May be life-threatening"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "ibuprofen",
+        "severity": "moderate",
+        "description": "NSAIDs blunt antihypertensive effect and worsen renal function"
+      },
+      {
+        "interacting_drug": "potassium supplements",
+        "severity": "moderate",
+        "description": "Risk of hyperkalaemia"
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Lipitor",
+    "generic_name": "atorvastatin",
+    "active_ingredient": "atorvastatin calcium",
+    "manufacturer": "Pfizer",
+    "indications": [
+      "Hypercholesterolaemia",
+      "Prevention of cardiovascular disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy",
+      "Breastfeeding"
+    ],
+    "warnings": [
+      "Myopathy and rhabdomyolysis",
+      "Hepatic enzyme elevation"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Myalgia",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Hepatic function abnormal",
+        "frequency": "uncommon",
+        "description": ""
+      },
+      {
+        "reaction": "Rhabdomyolysis",
+        "frequency": "rare",
+        "description": "Serious; monitor CK"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "amiodarone",
+        "severity": "major",
+        "description": "CYP3A4 inhibition increases statin exposure and myopathy risk"
+      },
+      {
+        "interacting_drug": "clarithromycin",
+        "severity": "major",
+        "description": ""
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Coumadin",
+    "generic_name": "warfarin",
+    "active_ingredient": "warfarin sodium",
+    "manufacturer": "Bristol-Myers Squibb",
+    "indications": [
+      "Atrial fibrillation",
+      "Venous thromboembolism",
+      "Mechanical heart valves"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Pregnancy",
+      "Recent major surgery"
+    ],
+    "warnings": [
+      "Major and fatal bleeding",
+      "Requires regular INR monitoring",
+      "Numerous drug and food interactions"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Haemorrhage",
+        "frequency": "common",
+        "description": "Bleeding is the principal risk"
+      },
+      {
+        "reaction": "Gastrointestinal haemorrhage",
+        "frequency": "uncommon",
+        "description": ""
+      },
+      {
+        "reaction": "Skin necrosis",
+        "frequency": "rare",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "aspirin",
+        "severity": "major",
+        "description": "Additive bleeding risk"
+      },
+      {
+        "interacting_drug": "ibuprofen",
+        "severity": "major",
+        "description": "Additive bleeding and GI injury"
+      },
+      {
+        "interacting_drug": "amiodarone",
+        "severity": "major",
+        "description": "CYP2C9 inhibition raises INR; reduce warfarin dose"
+      }
+    ],
+    "boxed_warning": "WARNING: BLEEDING RISK. Warfarin can cause major or fatal bleeding. Regular INR monitoring is required."
+  },
+  {
+    "drug_name": "Cordarone",
+    "generic_name": "amiodarone",
+    "active_ingredient": "amiodarone hydrochloride",
+    "manufacturer": "Wyeth",
+    "indications": [
+      "Life-threatening ventricular arrhythmias",
+      "Atrial fibrillation"
+    ],
+    "contraindications": [
+      "Severe sinus-node dysfunction",
+      "Second- or third-degree heart block",
+      "Iodine hypersensitivity"
+    ],
+    "warnings": [
+      "Pulmonary toxicity",
+      "Hepatotoxicity",
+      "Thyroid dysfunction",
+      "Proarrhythmia"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Hypothyroidism",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Hyperthyroidism",
+        "frequency": "uncommon",
+        "description": ""
+      },
+      {
+        "reaction": "Pulmonary toxicity",
+        "frequency": "uncommon",
+        "description": "May be fatal"
+      },
+      {
+        "reaction": "Bradycardia",
+        "frequency": "common",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "warfarin",
+        "severity": "major",
+        "description": "Potentiates anticoagulation"
+      },
+      {
+        "interacting_drug": "simvastatin",
+        "severity": "major",
+        "description": "Increases rhabdomyolysis risk; limit simvastatin dose"
+      },
+      {
+        "interacting_drug": "metoprolol",
+        "severity": "moderate",
+        "description": "Additive bradycardia"
+      }
+    ],
+    "boxed_warning": "WARNING: PULMONARY, HEPATIC, AND PROARRHYTHMIC TOXICITY. Reserve for life-threatening arrhythmias due to potentially fatal toxicities."
+  },
+  {
+    "drug_name": "Prilosec",
+    "generic_name": "omeprazole",
+    "active_ingredient": "omeprazole",
+    "manufacturer": "AstraZeneca",
+    "indications": [
+      "Gastro-oesophageal reflux disease",
+      "Peptic ulcer disease",
+      "NSAID gastroprotection"
+    ],
+    "contraindications": [
+      "Hypersensitivity to proton-pump inhibitors"
+    ],
+    "warnings": [
+      "Hypomagnesaemia with long-term use",
+      "Increased risk of enteric infection",
+      "Possible B12 deficiency"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Headache",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Diarrhoea",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Hypomagnesaemia",
+        "frequency": "uncommon",
+        "description": ""
+      },
+      {
+        "reaction": "Clostridium difficile colitis",
+        "frequency": "rare",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "clopidogrel",
+        "severity": "moderate",
+        "description": "May reduce clopidogrel activation via CYP2C19"
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Lopressor",
+    "generic_name": "metoprolol",
+    "active_ingredient": "metoprolol tartrate",
+    "manufacturer": "Novartis",
+    "indications": [
+      "Hypertension",
+      "Angina",
+      "Heart failure",
+      "Rate control in atrial fibrillation"
+    ],
+    "contraindications": [
+      "Severe bradycardia",
+      "Second- or third-degree heart block",
+      "Decompensated heart failure"
+    ],
+    "warnings": [
+      "Do not withdraw abruptly",
+      "Bradycardia and hypotension",
+      "May mask hypoglycaemia"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Fatigue",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Bradycardia",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Dizziness",
+        "frequency": "common",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "amiodarone",
+        "severity": "moderate",
+        "description": "Additive bradycardia and conduction slowing"
+      },
+      {
+        "interacting_drug": "verapamil",
+        "severity": "major",
+        "description": ""
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Zocor",
+    "generic_name": "simvastatin",
+    "active_ingredient": "simvastatin",
+    "manufacturer": "Merck",
+    "indications": [
+      "Hypercholesterolaemia",
+      "Prevention of cardiovascular disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy",
+      "Concomitant strong CYP3A4 inhibitors"
+    ],
+    "warnings": [
+      "Dose-dependent myopathy and rhabdomyolysis",
+      "Avoid high doses with interacting drugs"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Myalgia",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Rhabdomyolysis",
+        "frequency": "rare",
+        "description": "Higher risk at 80 mg dose"
+      },
+      {
+        "reaction": "Hepatic function abnormal",
+        "frequency": "uncommon",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "amiodarone",
+        "severity": "major",
+        "description": "Limit simvastatin to 20 mg daily"
+      },
+      {
+        "interacting_drug": "warfarin",
+        "severity": "moderate",
+        "description": ""
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Norvasc",
+    "generic_name": "amlodipine",
+    "active_ingredient": "amlodipine besylate",
+    "manufacturer": "Pfizer",
+    "indications": [
+      "Hypertension",
+      "Chronic stable angina"
+    ],
+    "contraindications": [
+      "Severe hypotension",
+      "Hypersensitivity to dihydropyridines"
+    ],
+    "warnings": [
+      "Peripheral oedema",
+      "Symptomatic hypotension"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Peripheral oedema",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Flushing",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Dizziness",
+        "frequency": "uncommon",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "simvastatin",
+        "severity": "moderate",
+        "description": "Limit simvastatin dose with amlodipine"
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Advil",
+    "generic_name": "ibuprofen",
+    "active_ingredient": "ibuprofen",
+    "manufacturer": "Pfizer Consumer Healthcare",
+    "indications": [
+      "Pain",
+      "Inflammation",
+      "Fever"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Severe heart failure",
+      "Third trimester of pregnancy"
+    ],
+    "warnings": [
+      "Gastrointestinal bleeding and ulceration",
+      "Cardiovascular thrombotic events",
+      "Renal impairment"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Dyspepsia",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Gastrointestinal haemorrhage",
+        "frequency": "uncommon",
+        "description": "Risk increases with age and antithrombotics"
+      },
+      {
+        "reaction": "Hypertension",
+        "frequency": "uncommon",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "warfarin",
+        "severity": "major",
+        "description": "Additive bleeding risk"
+      },
+      {
+        "interacting_drug": "aspirin",
+        "severity": "moderate",
+        "description": "May attenuate cardioprotection; additive GI injury"
+      },
+      {
+        "interacting_drug": "lisinopril",
+        "severity": "moderate",
+        "description": ""
+      },
+      {
+        "interacting_drug": "metformin",
+        "severity": "moderate",
+        "description": "Reduced renal clearance may raise lactic acidosis risk"
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Bayer Aspirin",
+    "generic_name": "aspirin",
+    "active_ingredient": "acetylsalicylic acid",
+    "manufacturer": "Bayer",
+    "indications": [
+      "Secondary cardiovascular prevention",
+      "Pain",
+      "Fever"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Children with viral illness (Reye syndrome)",
+      "Aspirin hypersensitivity"
+    ],
+    "warnings": [
+      "Gastrointestinal bleeding",
+      "Bleeding risk with anticoagulants"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Dyspepsia",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Gastrointestinal haemorrhage",
+        "frequency": "uncommon",
+        "description": ""
+      },
+      {
+        "reaction": "Epistaxis",
+        "frequency": "uncommon",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "warfarin",
+        "severity": "major",
+        "description": "Additive bleeding risk"
+      },
+      {
+        "interacting_drug": "ibuprofen",
+        "severity": "moderate",
+        "description": "Ibuprofen may block aspirin antiplatelet effect"
+      },
+      {
+        "interacting_drug": "clopidogrel",
+        "severity": "moderate",
+        "description": ""
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Plavix",
+    "generic_name": "clopidogrel",
+    "active_ingredient": "clopidogrel bisulfate",
+    "manufacturer": "Sanofi",
+    "indications": [
+      "Acute coronary syndrome",
+      "Recent myocardial infarction or stroke",
+      "Peripheral arterial disease"
+    ],
+    "contraindications": [
+      "Active pathological bleeding",
+      "Severe hepatic impairment"
+    ],
+    "warnings": [
+      "Bleeding risk",
+      "Reduced effect in CYP2C19 poor metabolisers"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Haemorrhage",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Bruising",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Gastrointestinal haemorrhage",
+        "frequency": "uncommon",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "omeprazole",
+        "severity": "moderate",
+        "description": "May reduce clopidogrel activation"
+      },
+      {
+        "interacting_drug": "aspirin",
+        "severity": "moderate",
+        "description": ""
+      },
+      {
+        "interacting_drug": "warfarin",
+        "severity": "major",
+        "description": ""
+      }
+    ],
+    "boxed_warning": "WARNING: DIMINISHED EFFECTIVENESS IN POOR METABOLIZERS. Effectiveness depends on CYP2C19 activation to an active metabolite."
+  },
+  {
+    "drug_name": "Crestor",
+    "generic_name": "rosuvastatin",
+    "active_ingredient": "rosuvastatin calcium",
+    "manufacturer": "AstraZeneca",
+    "indications": [
+      "Hypercholesterolaemia",
+      "Prevention of cardiovascular disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy",
+      "Breastfeeding"
+    ],
+    "warnings": [
+      "Myopathy and rhabdomyolysis",
+      "Proteinuria at high doses"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Myalgia",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Blood creatine phosphokinase increased",
+        "frequency": "uncommon",
+        "description": ""
+      },
+      {
+        "reaction": "Rhabdomyolysis",
+        "frequency": "rare",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "warfarin",
+        "severity": "moderate",
+        "description": "May increase INR"
+      },
+      {
+        "interacting_drug": "ciclosporin",
+        "severity": "major",
+        "description": ""
+      }
+    ],
+    "boxed_warning": null
+  },
+  {
+    "drug_name": "Zoloft",
+    "generic_name": "sertraline",
+    "active_ingredient": "sertraline hydrochloride",
+    "manufacturer": "Pfizer",
+    "indications": [
+      "Major depressive disorder",
+      "Anxiety disorders",
+      "Obsessive-compulsive disorder"
+    ],
+    "contraindications": [
+      "Concomitant monoamine oxidase inhibitors",
+      "Concomitant pimozide"
+    ],
+    "warnings": [
+      "Serotonin syndrome",
+      "Hyponatraemia",
+      "Increased bleeding risk with antithrombotics"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Nausea",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Hyponatraemia",
+        "frequency": "uncommon",
+        "description": "More common in the elderly"
+      },
+      {
+        "reaction": "Serotonin syndrome",
+        "frequency": "rare",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "warfarin",
+        "severity": "moderate",
+        "description": "May increase bleeding risk"
+      },
+      {
+        "interacting_drug": "ibuprofen",
+        "severity": "moderate",
+        "description": "Additive bleeding risk"
+      }
+    ],
+    "boxed_warning": "WARNING: SUICIDAL THOUGHTS AND BEHAVIORS. Increased risk in children, adolescents, and young adults."
+  },
+  {
+    "drug_name": "Neurontin",
+    "generic_name": "gabapentin",
+    "active_ingredient": "gabapentin",
+    "manufacturer": "Pfizer",
+    "indications": [
+      "Neuropathic pain",
+      "Partial seizures",
+      "Postherpetic neuralgia"
+    ],
+    "contraindications": [
+      "Hypersensitivity to gabapentin"
+    ],
+    "warnings": [
+      "CNS depression and sedation",
+      "Respiratory depression with opioids",
+      "Withdrawal on abrupt discontinuation"
+    ],
+    "adverse_reactions": [
+      {
+        "reaction": "Somnolence",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Dizziness",
+        "frequency": "common",
+        "description": ""
+      },
+      {
+        "reaction": "Peripheral oedema",
+        "frequency": "uncommon",
+        "description": ""
+      }
+    ],
+    "drug_interactions": [
+      {
+        "interacting_drug": "opioids",
+        "severity": "major",
+        "description": "Additive respiratory depression"
+      },
+      {
+        "interacting_drug": "sertraline",
+        "severity": "minor",
+        "description": ""
+      }
+    ],
+    "boxed_warning": null
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "report_id": "US-MEDSIGNAL-2024-00001",
+    "patient": {
+      "age": 84.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 91.5
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "interacting",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "death"
+      }
+    ],
+    "report_date": "2024-02-02",
+    "reporter_type": "other",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00002",
+    "patient": {
+      "age": 47.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 103.1
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "life_threatening"
+      }
+    ],
+    "report_date": "2024-03-03",
+    "reporter_type": "other",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00003",
+    "patient": {
+      "age": 59.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 63.9
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "hospitalization"
+      },
+      {
+        "preferred_term": "Headache",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-04-04",
+    "reporter_type": "consumer",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00004",
+    "patient": {
+      "age": 33.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 58.9
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "interacting",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-05-05",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00005",
+    "patient": {
+      "age": 55.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 88.3
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-06-06",
+    "reporter_type": "other",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00006",
+    "patient": {
+      "age": 85.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 74.3
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "life_threatening"
+      },
+      {
+        "preferred_term": "Nausea",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-07-07",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00007",
+    "patient": {
+      "age": 32.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 85.6
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "interacting",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "life_threatening"
+      }
+    ],
+    "report_date": "2024-08-08",
+    "reporter_type": "other",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00008",
+    "patient": {
+      "age": 39.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 61.2
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-09-09",
+    "reporter_type": "consumer",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00009",
+    "patient": {
+      "age": 79.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 98.8
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Lactic acidosis",
+        "outcome": "hospitalization"
+      },
+      {
+        "preferred_term": "Dizziness",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-10-10",
+    "reporter_type": "physician",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00010",
+    "patient": {
+      "age": 45.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 92.1
+    },
+    "drugs": [
+      {
+        "name": "Coumadin",
+        "generic_name": "warfarin",
+        "role": "primary_suspect",
+        "indication": "Atrial fibrillation",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Bayer Aspirin",
+        "generic_name": "aspirin",
+        "role": "interacting",
+        "indication": "Secondary prevention",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "death"
+      }
+    ],
+    "report_date": "2024-11-11",
+    "reporter_type": "physician",
+    "serious": true
+  }
+]

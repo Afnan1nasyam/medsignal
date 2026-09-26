@@ -1,0 +1,318 @@
+[
+  {
+    "report_id": "US-MEDSIGNAL-2024-00041",
+    "patient": {
+      "age": 60.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 63.9
+    },
+    "drugs": [
+      {
+        "name": "Plavix",
+        "generic_name": "clopidogrel",
+        "role": "primary_suspect",
+        "indication": "Acute coronary syndrome",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Bayer Aspirin",
+        "generic_name": "aspirin",
+        "role": "interacting",
+        "indication": "Secondary prevention",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Haemorrhage",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-06-15",
+    "reporter_type": "consumer",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00042",
+    "patient": {
+      "age": 67.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 80.5
+    },
+    "drugs": [
+      {
+        "name": "Zoloft",
+        "generic_name": "sertraline",
+        "role": "primary_suspect",
+        "indication": "Major depressive disorder",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Hyponatraemia",
+        "outcome": "other"
+      },
+      {
+        "preferred_term": "Vomiting",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-07-16",
+    "reporter_type": "consumer",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00043",
+    "patient": {
+      "age": 68.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 61.6
+    },
+    "drugs": [
+      {
+        "name": "Zoloft",
+        "generic_name": "sertraline",
+        "role": "primary_suspect",
+        "indication": "Major depressive disorder",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Serotonin syndrome",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-08-17",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00044",
+    "patient": {
+      "age": 70.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 83.2
+    },
+    "drugs": [
+      {
+        "name": "Neurontin",
+        "generic_name": "gabapentin",
+        "role": "primary_suspect",
+        "indication": "Neuropathic pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Somnolence",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-09-18",
+    "reporter_type": "other",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00045",
+    "patient": {
+      "age": 74.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 101.7
+    },
+    "drugs": [
+      {
+        "name": "Neurontin",
+        "generic_name": "gabapentin",
+        "role": "primary_suspect",
+        "indication": "Neuropathic pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Dizziness",
+        "outcome": "other"
+      },
+      {
+        "preferred_term": "Headache",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-10-19",
+    "reporter_type": "consumer",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00046",
+    "patient": {
+      "age": 28.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 94.5
+    },
+    "drugs": [
+      {
+        "name": "Glucophage",
+        "generic_name": "metformin",
+        "role": "primary_suspect",
+        "indication": "Type 2 diabetes mellitus",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Diarrhoea",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-11-20",
+    "reporter_type": "physician",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00047",
+    "patient": {
+      "age": 29.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 95.0
+    },
+    "drugs": [
+      {
+        "name": "Lipitor",
+        "generic_name": "atorvastatin",
+        "role": "primary_suspect",
+        "indication": "Hypercholesterolaemia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Myalgia",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-12-21",
+    "reporter_type": "consumer",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00048",
+    "patient": {
+      "age": 30.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 84.0
+    },
+    "drugs": [
+      {
+        "name": "Zocor",
+        "generic_name": "simvastatin",
+        "role": "primary_suspect",
+        "indication": "Hypercholesterolaemia",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "interacting",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Hepatic function abnormal",
+        "outcome": "other"
+      },
+      {
+        "preferred_term": "Vomiting",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-01-22",
+    "reporter_type": "other",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00049",
+    "patient": {
+      "age": 55.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 68.3
+    },
+    "drugs": [
+      {
+        "name": "Coumadin",
+        "generic_name": "warfarin",
+        "role": "primary_suspect",
+        "indication": "Atrial fibrillation",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "interacting",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "International normalised ratio increased",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-02-23",
+    "reporter_type": "other",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00050",
+    "patient": {
+      "age": 82.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 68.8
+    },
+    "drugs": [
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "primary_suspect",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Pulmonary toxicity",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-03-24",
+    "reporter_type": "physician",
+    "serious": true
+  }
+]

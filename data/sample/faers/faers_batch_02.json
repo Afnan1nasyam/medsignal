@@ -1,0 +1,358 @@
+[
+  {
+    "report_id": "US-MEDSIGNAL-2024-00011",
+    "patient": {
+      "age": 59.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 91.2
+    },
+    "drugs": [
+      {
+        "name": "Coumadin",
+        "generic_name": "warfarin",
+        "role": "primary_suspect",
+        "indication": "Atrial fibrillation",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "interacting",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Haemorrhage",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-12-12",
+    "reporter_type": "pharmacist",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00012",
+    "patient": {
+      "age": 26.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 94.2
+    },
+    "drugs": [
+      {
+        "name": "Coumadin",
+        "generic_name": "warfarin",
+        "role": "primary_suspect",
+        "indication": "Atrial fibrillation",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Bayer Aspirin",
+        "generic_name": "aspirin",
+        "role": "interacting",
+        "indication": "Secondary prevention",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Epistaxis",
+        "outcome": "other"
+      },
+      {
+        "preferred_term": "Vomiting",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-01-13",
+    "reporter_type": "pharmacist",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00013",
+    "patient": {
+      "age": 54.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 93.2
+    },
+    "drugs": [
+      {
+        "name": "Coumadin",
+        "generic_name": "warfarin",
+        "role": "primary_suspect",
+        "indication": "Atrial fibrillation",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "interacting",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Haematuria",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-02-14",
+    "reporter_type": "pharmacist",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00014",
+    "patient": {
+      "age": 43.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 55.9
+    },
+    "drugs": [
+      {
+        "name": "Coumadin",
+        "generic_name": "warfarin",
+        "role": "primary_suspect",
+        "indication": "Atrial fibrillation",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Bayer Aspirin",
+        "generic_name": "aspirin",
+        "role": "interacting",
+        "indication": "Secondary prevention",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Cerebral haemorrhage",
+        "outcome": "death"
+      }
+    ],
+    "report_date": "2024-03-15",
+    "reporter_type": "other",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00015",
+    "patient": {
+      "age": 52.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 73.8
+    },
+    "drugs": [
+      {
+        "name": "Coumadin",
+        "generic_name": "warfarin",
+        "role": "primary_suspect",
+        "indication": "Atrial fibrillation",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "interacting",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "hospitalization"
+      },
+      {
+        "preferred_term": "Fatigue",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-04-16",
+    "reporter_type": "other",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00016",
+    "patient": {
+      "age": 81.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 73.7
+    },
+    "drugs": [
+      {
+        "name": "Coumadin",
+        "generic_name": "warfarin",
+        "role": "primary_suspect",
+        "indication": "Atrial fibrillation",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Bayer Aspirin",
+        "generic_name": "aspirin",
+        "role": "interacting",
+        "indication": "Secondary prevention",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Haemorrhage",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-05-17",
+    "reporter_type": "other",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00017",
+    "patient": {
+      "age": 56.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 87.1
+    },
+    "drugs": [
+      {
+        "name": "Lipitor",
+        "generic_name": "atorvastatin",
+        "role": "primary_suspect",
+        "indication": "Hypercholesterolaemia",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "interacting",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Rhabdomyolysis",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-06-18",
+    "reporter_type": "consumer",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00018",
+    "patient": {
+      "age": 31.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 62.2
+    },
+    "drugs": [
+      {
+        "name": "Zocor",
+        "generic_name": "simvastatin",
+        "role": "primary_suspect",
+        "indication": "Hypercholesterolaemia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Rhabdomyolysis",
+        "outcome": "hospitalization"
+      },
+      {
+        "preferred_term": "Fatigue",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-07-19",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00019",
+    "patient": {
+      "age": 45.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 90.1
+    },
+    "drugs": [
+      {
+        "name": "Crestor",
+        "generic_name": "rosuvastatin",
+        "role": "primary_suspect",
+        "indication": "Hypercholesterolaemia",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "interacting",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Rhabdomyolysis",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-08-20",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00020",
+    "patient": {
+      "age": 51.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 73.9
+    },
+    "drugs": [
+      {
+        "name": "Lipitor",
+        "generic_name": "atorvastatin",
+        "role": "primary_suspect",
+        "indication": "Hypercholesterolaemia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Rhabdomyolysis",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-09-21",
+    "reporter_type": "other",
+    "serious": true
+  }
+]

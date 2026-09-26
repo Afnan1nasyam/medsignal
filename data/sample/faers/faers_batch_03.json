@@ -1,0 +1,314 @@
+[
+  {
+    "report_id": "US-MEDSIGNAL-2024-00021",
+    "patient": {
+      "age": 38.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 69.8
+    },
+    "drugs": [
+      {
+        "name": "Zocor",
+        "generic_name": "simvastatin",
+        "role": "primary_suspect",
+        "indication": "Hypercholesterolaemia",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "interacting",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Rhabdomyolysis",
+        "outcome": "life_threatening"
+      },
+      {
+        "preferred_term": "Nausea",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-10-22",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00022",
+    "patient": {
+      "age": 35.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 97.8
+    },
+    "drugs": [
+      {
+        "name": "Crestor",
+        "generic_name": "rosuvastatin",
+        "role": "primary_suspect",
+        "indication": "Hypercholesterolaemia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Rhabdomyolysis",
+        "outcome": "life_threatening"
+      }
+    ],
+    "report_date": "2024-11-23",
+    "reporter_type": "other",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00023",
+    "patient": {
+      "age": 61.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 93.5
+    },
+    "drugs": [
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "primary_suspect",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Hypothyroidism",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-12-24",
+    "reporter_type": "physician",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00024",
+    "patient": {
+      "age": 38.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 91.8
+    },
+    "drugs": [
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "primary_suspect",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Hyperthyroidism",
+        "outcome": "other"
+      },
+      {
+        "preferred_term": "Dizziness",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-01-25",
+    "reporter_type": "other",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00025",
+    "patient": {
+      "age": 43.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 53.9
+    },
+    "drugs": [
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "primary_suspect",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Thyroid disorder",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-02-26",
+    "reporter_type": "other",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00026",
+    "patient": {
+      "age": 60.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 92.3
+    },
+    "drugs": [
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "primary_suspect",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Hypothyroidism",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-03-27",
+    "reporter_type": "consumer",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00027",
+    "patient": {
+      "age": 35.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 88.0
+    },
+    "drugs": [
+      {
+        "name": "Cordarone",
+        "generic_name": "amiodarone",
+        "role": "primary_suspect",
+        "indication": "Cardiac arrhythmia",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Hyperthyroidism",
+        "outcome": "other"
+      },
+      {
+        "preferred_term": "Dizziness",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-04-01",
+    "reporter_type": "consumer",
+    "serious": false
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00028",
+    "patient": {
+      "age": 47.0,
+      "age_unit": "year",
+      "sex": "female",
+      "weight": 55.1
+    },
+    "drugs": [
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "primary_suspect",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      },
+      {
+        "name": "Bayer Aspirin",
+        "generic_name": "aspirin",
+        "role": "interacting",
+        "indication": "Secondary prevention",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "death"
+      }
+    ],
+    "report_date": "2024-05-02",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00029",
+    "patient": {
+      "age": 43.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 102.2
+    },
+    "drugs": [
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "primary_suspect",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "hospitalization"
+      }
+    ],
+    "report_date": "2024-06-03",
+    "reporter_type": "pharmacist",
+    "serious": true
+  },
+  {
+    "report_id": "US-MEDSIGNAL-2024-00030",
+    "patient": {
+      "age": 36.0,
+      "age_unit": "year",
+      "sex": "male",
+      "weight": 87.4
+    },
+    "drugs": [
+      {
+        "name": "Advil",
+        "generic_name": "ibuprofen",
+        "role": "primary_suspect",
+        "indication": "Pain",
+        "dosage": null,
+        "route": null
+      }
+    ],
+    "reactions": [
+      {
+        "preferred_term": "Gastrointestinal haemorrhage",
+        "outcome": "hospitalization"
+      },
+      {
+        "preferred_term": "Fatigue",
+        "outcome": "other"
+      }
+    ],
+    "report_date": "2024-07-04",
+    "reporter_type": "other",
+    "serious": true
+  }
+]

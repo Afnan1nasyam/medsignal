@@ -1,0 +1,162 @@
+[
+  {
+    "query": "What are the common side effects of metformin?",
+    "expected_intent": "SAFETY_PROFILE",
+    "expected_drugs": ["metformin"],
+    "expected_evidence_grade_min": "C",
+    "expected_sources": ["DRUG_LABELS"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "How many FAERS reports exist for warfarin and bleeding?",
+    "expected_intent": "ADVERSE_EVENT_LOOKUP",
+    "expected_drugs": ["warfarin"],
+    "expected_evidence_grade_min": "D",
+    "expected_sources": ["FAERS"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "What are the contraindications for lisinopril?",
+    "expected_intent": "SAFETY_PROFILE",
+    "expected_drugs": ["lisinopril"],
+    "expected_evidence_grade_min": "A",
+    "expected_sources": ["DRUG_LABELS"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "Is atorvastatin linked to muscle pain?",
+    "expected_intent": "ADVERSE_EVENT_LOOKUP",
+    "expected_drugs": ["atorvastatin"],
+    "expected_evidence_grade_min": "C",
+    "expected_sources": ["FAERS", "DRUG_LABELS"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "What clinical trials exist for metformin?",
+    "expected_intent": "GENERAL",
+    "expected_drugs": ["metformin"],
+    "expected_evidence_grade_min": "C",
+    "expected_sources": ["CLINICAL_TRIALS"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "Does amiodarone have a black box warning?",
+    "expected_intent": "SAFETY_PROFILE",
+    "expected_drugs": ["amiodarone"],
+    "expected_evidence_grade_min": "A",
+    "expected_sources": ["DRUG_LABELS"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "What is the safety profile of ibuprofen?",
+    "expected_intent": "SAFETY_PROFILE",
+    "expected_drugs": ["ibuprofen"],
+    "expected_evidence_grade_min": "B",
+    "expected_sources": ["DRUG_LABELS", "FAERS"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "Is there evidence linking metformin to lactic acidosis in elderly patients?",
+    "expected_intent": "ADVERSE_EVENT_LOOKUP",
+    "expected_drugs": ["metformin"],
+    "expected_evidence_grade_min": "B",
+    "expected_sources": ["FAERS", "PUBMED", "DRUG_LABELS"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "What drug interactions should I watch for with warfarin?",
+    "expected_intent": "DRUG_INTERACTION",
+    "expected_drugs": ["warfarin"],
+    "expected_evidence_grade_min": "A",
+    "expected_sources": ["DRUG_LABELS", "PUBMED"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "Compare the GI safety of ibuprofen vs aspirin",
+    "expected_intent": "DRUG_COMPARISON",
+    "expected_drugs": ["ibuprofen", "aspirin"],
+    "expected_evidence_grade_min": "B",
+    "expected_sources": ["DRUG_LABELS", "FAERS", "PUBMED"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "Are there any reports of liver damage with atorvastatin?",
+    "expected_intent": "ADVERSE_EVENT_LOOKUP",
+    "expected_drugs": ["atorvastatin"],
+    "expected_evidence_grade_min": "C",
+    "expected_sources": ["FAERS", "DRUG_LABELS"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "What adverse events were reported in metoprolol clinical trials?",
+    "expected_intent": "ADVERSE_EVENT_LOOKUP",
+    "expected_drugs": ["metoprolol"],
+    "expected_evidence_grade_min": "B",
+    "expected_sources": ["CLINICAL_TRIALS"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "How does amiodarone affect thyroid function?",
+    "expected_intent": "ADVERSE_EVENT_LOOKUP",
+    "expected_drugs": ["amiodarone"],
+    "expected_evidence_grade_min": "B",
+    "expected_sources": ["FAERS", "PUBMED", "DRUG_LABELS"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "Is clopidogrel safe to use with omeprazole?",
+    "expected_intent": "DRUG_INTERACTION",
+    "expected_drugs": ["clopidogrel", "omeprazole"],
+    "expected_evidence_grade_min": "A",
+    "expected_sources": ["DRUG_LABELS", "PUBMED"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "A 72-year-old on warfarin was prescribed amiodarone. What interaction risks and monitoring should be done?",
+    "expected_intent": "DRUG_INTERACTION",
+    "expected_drugs": ["warfarin", "amiodarone"],
+    "expected_evidence_grade_min": "A",
+    "expected_sources": ["DRUG_LABELS", "FAERS", "PUBMED"],
+    "difficulty": "hard"
+  },
+  {
+    "query": "Which drugs in the statin class have the highest rates of rhabdomyolysis based on all available evidence?",
+    "expected_intent": "DRUG_COMPARISON",
+    "expected_drugs": ["atorvastatin", "simvastatin", "rosuvastatin"],
+    "expected_evidence_grade_min": "B",
+    "expected_sources": ["FAERS", "DRUG_LABELS", "PUBMED"],
+    "difficulty": "hard"
+  },
+  {
+    "query": "Are there emerging safety signals for any of the statins that aren't yet in their drug labels?",
+    "expected_intent": "SIGNAL_DETECTION",
+    "expected_drugs": [],
+    "expected_evidence_grade_min": "C",
+    "expected_sources": ["FAERS", "DRUG_LABELS"],
+    "difficulty": "hard"
+  },
+  {
+    "query": "What should a pharmacist check before dispensing metformin to a patient already taking ibuprofen?",
+    "expected_intent": "DRUG_INTERACTION",
+    "expected_drugs": ["metformin", "ibuprofen"],
+    "expected_evidence_grade_min": "B",
+    "expected_sources": ["DRUG_LABELS", "FAERS"],
+    "difficulty": "hard"
+  },
+  {
+    "query": "Cross-reference FAERS data with published literature on sertraline and QT prolongation",
+    "expected_intent": "ADVERSE_EVENT_LOOKUP",
+    "expected_drugs": ["sertraline"],
+    "expected_evidence_grade_min": "C",
+    "expected_sources": ["FAERS", "PUBMED"],
+    "difficulty": "hard"
+  },
+  {
+    "query": "Which adverse events are disproportionately reported for gabapentin compared to other drugs for neuropathic pain?",
+    "expected_intent": "SIGNAL_DETECTION",
+    "expected_drugs": ["gabapentin"],
+    "expected_evidence_grade_min": "C",
+    "expected_sources": ["FAERS"],
+    "difficulty": "hard"
+  }
+]
